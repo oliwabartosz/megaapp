@@ -1,0 +1,19 @@
+<ul class="task-box">
+    {{#each dataArr}}
+        <li class="task">
+            <label for="{{@index}}">
+                <input type="checkbox" id="{{@index}}" {{#if this.completed}}checked{{/if}}>
+                <p {{#if this.completed}}class="checked"{{/if}}>{{this.task}}</p>
+            </label>
+            <div class="settings">...
+                <ul class="task-menu">
+                    <li id="edit" index="{{@index}}">Edit</li>
+                    <li id ="delete" index="{{@index}}">Delete</li>
+                </ul>
+            </div>
+        </li>
+    {{/each}}
+
+
+</ul>
+

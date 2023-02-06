@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../express-dzielnik/.idea/express-dzielnik.iml" filepath="$PROJECT_DIR$/../express-dzielnik/.idea/express-dzielnik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../express-namex3/.idea/express-namex3.iml" filepath="$PROJECT_DIR$/../express-namex3/.idea/express-namex3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/todo.iml" filepath="$PROJECT_DIR$/.idea/todo.iml" />
+    </modules>
+  </component>
+</project>

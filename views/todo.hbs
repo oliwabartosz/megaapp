@@ -1,0 +1,16 @@
+<div class="wrapper">
+    <div class="task-input">
+        <form action="/todo">
+        <input type="text" placeholder="Add a new task..">
+        </form>
+    </div>
+    <div class="controls">
+        <div class="filters">
+            <span id="all" class="active">All ({{dataArrLength}})</span>
+            <span id="pending">Pending {{dataPendingLength}}</span>
+            <span id="completed">Completed {{dataCompletedLength}}</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+    </div>
+    {{>todo-list}}
+</div>
